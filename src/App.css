@@ -1,0 +1,37 @@
+.player-music {
+  background-color: #0f172a !important;
+  height: 6rem;
+  color: white;
+}
+.rhap_button-clear.rhap_repeat-button {
+  color: #0f172a;
+}
+
+.rhap_time.rhap_current-time,
+.rhap_time.rhap_total-time {
+  color: white;
+}
+
+::selection {
+  background-color: transparent;
+  color: turquoise;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
